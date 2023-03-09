@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 public class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
     private Context context;
     private ImageView imageView;
-    private TextView blogTitle; //title
+    private TextView blogTitle;
     private TextView blogDescription;
     private final WordListAdapter mAdapter;
     String titleTxt = "";
